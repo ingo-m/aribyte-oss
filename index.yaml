@@ -1,0 +1,105 @@
+apiVersion: v1
+entries:
+  airbyte-bootloader:
+  - apiVersion: v2
+    appVersion: 0.42.0
+    created: "2022-07-14T11:58:16.991369057Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Helm chart to deploy airbyte-bootloader
+    digest: 13973aaa8ebd00f0ed1b00d14941e3b93a7bb2ac69bfe9e930b80917a544797b
+    name: airbyte-bootloader
+    type: application
+    urls:
+    - airbyte-bootloader-0.42.0.tgz
+    version: 0.42.0
+  pod-sweeper:
+  - apiVersion: v2
+    appVersion: 0.42.0
+    created: "2022-07-14T11:58:16.992870638Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Helm chart to deploy airbyte-pod-sweeper
+    digest: 15c90d6cc9e84dcb282b067ee8e78cefac5bb72c6b3efb2872c5051d8f2312f7
+    name: pod-sweeper
+    type: application
+    urls:
+    - pod-sweeper-0.42.0.tgz
+    version: 0.42.0
+  server:
+  - apiVersion: v2
+    appVersion: 0.42.0
+    created: "2022-07-14T11:58:16.994265321Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Helm chart to deploy airbyte-server
+    digest: f7bb9589a8c90f5890e6583b6f8db62de580c115754216dbf0153067c36ee58a
+    name: server
+    type: application
+    urls:
+    - server-0.42.0.tgz
+    version: 0.42.0
+  temporal:
+  - apiVersion: v2
+    appVersion: 0.42.0
+    created: "2022-07-14T11:58:16.995577805Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Helm chart to deploy airbyte-temporal
+    digest: 3c622b8211c8f0c896fa779fd5296ad49b2b8f0d0448991abcf10212668d1f6c
+    name: temporal
+    type: application
+    urls:
+    - temporal-0.42.0.tgz
+    version: 0.42.0
+  webapp:
+  - apiVersion: v2
+    appVersion: 0.42.0
+    created: "2022-07-14T11:58:16.996906988Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Helm chart to deploy airbyte-webapp
+    digest: 9de1a496be0b418e2f66aced0fa16f621cc8f9ed7e295ab776159a9399a580ac
+    name: webapp
+    type: application
+    urls:
+    - webapp-0.42.0.tgz
+    version: 0.42.0
+  worker:
+  - apiVersion: v2
+    appVersion: 0.42.0
+    created: "2022-07-14T11:58:16.998321871Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Helm chart to deploy airbyte-worker
+    digest: 31aaac6a17fb83064c918fbf0c05a3d56a0a69977b23b7f39ad7b2b94ad12ca7
+    name: worker
+    type: application
+    urls:
+    - worker-0.42.0.tgz
+    version: 0.42.0
+generated: "2022-07-14T11:58:16.989130585Z"
